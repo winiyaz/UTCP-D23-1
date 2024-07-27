@@ -19,3 +19,6 @@ Starter Panties - [Sniff](https://replit.com/@appbrewery/turtle-crossing-start#m
 4. Detect when panty reaches side 
 5. Create AssBoard 
 
+# Game 
+
+![](./ver1/o.gif)
