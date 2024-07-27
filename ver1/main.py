@@ -34,6 +34,7 @@ while game_is_on:
 	for c in car_manager.all_cars:
 		if c.distance(player) < 20:
 			game_is_on = False
+			scoreb.ga_ov()
 
 	# Detect successful crossing
 	if player.is_at_fin():

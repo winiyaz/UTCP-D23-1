@@ -14,9 +14,13 @@ class Scoreboard(Turtle):
 		self.up_sc()
 
 	def up_sc(self):
+		self.clear()
 		self.write(f'Level: {self.level}', align="left", font=FONT)
 
 	def increase_level(self):
 		self.level += 1
-		self.clear()
 		self.up_sc()
+
+	def ga_ov(self):
+		self.goto(0,0)
+		self.write(f'FUCKED', align="center", font=FONT)
